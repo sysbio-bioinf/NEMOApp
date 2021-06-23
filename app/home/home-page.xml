@@ -1,0 +1,10 @@
+<Page class="page my-page" navigatingTo="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd" actionBarHidden="true" loaded="onLoaded">
+    <ScrollView>
+        <StackLayout verticalAlignment="center">
+            <Button text="&#x2b;" class="my-button-diary" horizontalAlignment="center" tap="onTapPlus"></Button>
+            <Label text="Tagebuch-Eintrag hinzufügen" fontSize="{{ mySize }}" textWrap="true" class="question text-center" horizontalAlignment="center"></Label>
+            <Label text=" " fontSize="{{ mySize }}" textWrap="true" class="question text-center" horizontalAlignment="center"></Label>
+            <Label id="helpText" text="{{ helpDiaryHome }}" fontSize="{{ mySizeMessageSmall }}" textWrap="true" class="help help-home" />
+        </StackLayout>
+    </ScrollView>
+</Page>

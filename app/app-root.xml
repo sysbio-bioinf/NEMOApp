@@ -1,0 +1,33 @@
+<BottomNavigation>
+    <TabStrip>
+        <TabStripItem class="navigation__item" >
+            <Label text="Tagebuch" />
+            <Image src="font://&#xf02d;" class="fas t-36" style="font-weight: normal;" />
+        </TabStripItem>
+        <TabStripItem class="navigation__item">
+            <Label text="Medikation" />
+            <Image src="font://&#xf469;" class="fas t-36" style="font-weight: normal" />
+        </TabStripItem>
+        <TabStripItem class="navigation__item">
+            <Label text="Transfer" />
+            <Image src="font://&#xf029;" class="fas t-36" style="font-weight: normal;" />
+        </TabStripItem>
+        <TabStripItem class="navigation__item">
+            <Label text="Einstellungen" />
+            <Image src="font://&#xf1de;" class="fas t-36" style="font-weight: normal;" />
+        </TabStripItem>
+    </TabStrip>
+
+    <TabContentItem>
+        <Frame defaultPage="home/home-page" />
+    </TabContentItem>
+    <TabContentItem>
+        <Frame defaultPage="medication/medication-page" />
+    </TabContentItem>
+    <TabContentItem>
+        <Frame defaultPage="datenuebertragung/datenuebertragung-page" />
+    </TabContentItem>
+    <TabContentItem>
+        <Frame defaultPage="settings/settings-page" />
+    </TabContentItem>
+</BottomNavigation>

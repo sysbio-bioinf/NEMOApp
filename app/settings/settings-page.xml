@@ -1,0 +1,35 @@
+<Page navigatingTo="onNavigatingTo" actionBarHidden="true" class="page my-page" loaded="onLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
+
+    <ScrollView>
+        <GridLayout columns="*,auto" rows="auto, auto, auto, auto, auto, auto" class="settings-container">
+            <GridLayout row="0" colSpan="2" columns="*,auto" rows="auto, auto, auto">
+                <Label row="0" col="0" text="{{ settingPatientIdLabel }}" fontSize="{{ mySizeSmall }}" textWrap="true" class="question" />
+                <Label row="1" col="0" id="patientId" text="{{patientID}}" fontSize="{{ mySizeSmall }}" textWrap="true" class="question" />
+            </GridLayout>
+            <GridLayout row="1" colSpan="2" columns="*,auto" rows="auto, auto,auto" class="settings-subcontainer">
+                <Label row="0" col="0" text="{{ settingTtsLabel }}" fontSize="{{ mySizeSmall }}" textWrap="true" class="question" />
+                <Switch row="0" col="1" id="txt2speech" checked="{{ txt2speech }}" isEnabled="true" horizontalAlignment="center" color="{{ txt2SpeechColor }}" class="my-switch" />
+                <FlexboxLayout row="1" col="0" rowSpan="1" colSpan="2" justifyContent="flex-end" class="settings-voice-container">
+                    <ListPicker id="voicePicker" items="{{ settingVoiceLabel }}" flexGrow="1" selectedIndex="0" class="settings-voice"></ListPicker>
+                </FlexboxLayout>
+                <Label row="2" col="0" colSpan="2" text="{{ helpSettingTtsLabel }}" fontSize="{{ mySizeMessageSmall }}" textWrap="true" class="help help-settings help-tts" />
+            </GridLayout>
+            <GridLayout row="3" colSpan="2" columns="*,auto" rows="auto, auto" class="settings-subcontainer">
+                <Label row="0" col="0" text="{{ sendNotificationsOptionLabel }}" fontSize="{{ mySizeSmall }}" textWrap="true" class="question" />
+                <Switch row="0" col="1" id="sendNotifications" checked="{{ sendNotificationsOption }}" isEnabled="true" horizontalAlignment="center" color="{{ sendNotificationColor }}" class="my-switch" />
+                <Label row="1" col="0" colSpan="2" text="{{ helpSendNotificationsOptionLabel }}" fontSize="{{ mySizeMessageSmall }}" textWrap="true" class="help help-settings help-notification" />
+            </GridLayout>
+            <GridLayout row="4" colSpan="2" columns="*,auto" rows="auto, auto, auto" class="settings-subcontainer">
+                <Label row="0" col="0" text="{{ therapyOptionLabel }}" fontSize="{{ mySizeSmall }}" textWrap="true" class="question" />
+                 <FlexboxLayout row="1" col="0" rowSpan="1" colSpan="2" justifyContent="flex-end" class="settings-voice-container">
+                    <ListPicker id="therapyPicker" items="{{ settingTherapyLabel }}" flexGrow="1" selectedIndex="0" class="settings-voice"></ListPicker>
+                </FlexboxLayout>
+                <Label row="2" col="0" colSpan="2" text="{{ helpSettingTherapyLabel }}" fontSize="{{ mySizeMessageSmall }}" textWrap="true" class="help help-settings help-tts" />
+            </GridLayout>
+            <GridLayout row="5" colSpan="2" columns="*,auto" rows="auto, auto, auto" class="settings-subcontainer">
+                <Label row="0" col="0" text="Impressum" fontSize="{{ mySizeSmall }}" textWrap="true" class="settings-link" horizontalAlignment="left" tap="{{openImprint}}" />
+                <Label row="1" col="0" text="Datenschutz" fontSize="{{ mySizeSmall }}" textWrap="true" class="settings-link" horizontalAlignment="left" tap="{{openDataSecurity}}" />
+            </GridLayout>
+        </GridLayout>
+    </ScrollView>
+</Page>

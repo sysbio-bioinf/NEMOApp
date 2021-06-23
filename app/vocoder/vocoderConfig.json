@@ -1,0 +1,302 @@
+{
+    "mp3Path": "~/vocoder/tts/",
+    "mp3FilesFemale": {
+        "wellness": [
+		"wellness_female_question.mp3",
+		"wellness_female_answer_1.mp3",
+		"wellness_female_answer_2.mp3",
+		"wellness_female_answer_3.mp3",
+		"wellness_female_answer_or.mp3",
+		"wellness_female_answer_4.mp3"
+        ],
+        "diarrhoe": [
+		"diarrhoe_female_question.mp3",
+		"diarrhoe_female_answer_1.mp3",
+		"diarrhoe_female_answer_2.mp3",
+		"diarrhoe_female_answer_3.mp3",
+		"diarrhoe_female_answer_or.mp3",
+		"diarrhoe_female_answer_4.mp3"
+        ],
+        "vomit": [
+		"vomit_female_question.mp3",
+		"vomit_female_answer_1.mp3",
+		"vomit_female_answer_2.mp3",
+		"vomit_female_answer_3.mp3",
+		"vomit_female_answer_or.mp3",
+		"vomit_female_answer_4.mp3"
+        ],
+        "pain": [
+		"pain_female_question.mp3",
+		"pain_female_answer_1.mp3",
+		"pain_female_answer_2.mp3",
+		"pain_female_answer_3.mp3",
+		"pain_female_answer_or.mp3",
+		"pain_female_answer_4.mp3"
+        ],
+        "muco": [
+		"muco_female_question.mp3",
+		"muco_female_answer_1.mp3",
+		"muco_female_answer_2.mp3",
+		"muco_female_answer_3.mp3",
+		"muco_female_answer_or.mp3",
+		"muco_female_answer_4.mp3"
+        ],
+        "nausea": [
+		"nausea_female_question.mp3",
+		"nausea_female_answer_1.mp3",
+		"nausea_female_answer_2.mp3",
+		"nausea_female_answer_3.mp3",
+		"nausea_female_answer_or.mp3",
+		"nausea_female_answer_4.mp3"
+        ],
+        "pnp": [
+		"pnp_female_question.mp3",
+		"pnp_female_answer_1.mp3",
+		"pnp_female_answer_2.mp3",
+		"pnp_female_answer_3.mp3",
+		"pnp_female_answer_or.mp3",
+		"pnp_female_answer_4.mp3"
+        ],
+        "movement": [
+		"movement_female_question.mp3",
+		"movement_female_answer_1.mp3",
+		"movement_female_answer_or.mp3",
+		"movement_female_answer_2.mp3"
+        ],
+        "weight": [
+            "weightQueryWithAnswersFEMALE.mp3"
+        ],
+        "medication": [
+		"medication_female_question.mp3",
+		"medication_female_answer_1.mp3",
+		"medication_female_answer_or.mp3",
+		"medication_female_answer_2.mp3"
+        ],
+        "event": [
+            "eventQueryWithAnswersFEMALE.mp3"
+        ],
+	"breath": [
+		"breath_female_question.mp3",
+		"breath_female_answer_1.mp3",
+		"breath_female_answer_or.mp3",
+		"breath_female_answer_2.mp3"
+	],
+	"eczema": [
+		"eczema_female_question.mp3",
+		"eczema_female_answer_1.mp3",
+		"eczema_female_answer_or.mp3",
+		"eczema_female_answer_2.mp3"
+	],
+	"exercise": [
+        "exercise_female_question.mp3",
+        "exercise_female_answer_1.mp3",
+        "exercise_female_answer_or.mp3",
+        "exercise_female_answer_2.mp3"
+	],
+	"fatigue": [
+        "fatigue_female_question.mp3",
+        "fatigue_female_answer_1.mp3",
+        "fatigue_female_answer_2.mp3",
+        "fatigue_female_answer_3.mp3",
+        "fatigue_female_answer_or.mp3",
+        "fatigue_female_answer_4.mp3"
+	],
+	"joint": [
+        "joint_female_question.mp3",
+        "joint_female_answer_1.mp3",
+        "joint_female_answer_or.mp3",
+        "joint_female_answer_2.mp3"
+	],
+	"liver": [
+        "liver_female_question.mp3",
+        "liver_female_answer_1.mp3",
+        "liver_female_answer_or.mp3",
+        "liver_female_answer_2.mp3"
+	],
+	"muscle": [
+        "muscle_female_question.mp3",
+        "muscle_female_answer_1.mp3",
+        "muscle_female_answer_or.mp3",
+        "muscle_female_answer_2.mp3"
+	],
+	"vision": [
+        "vision_female_question.mp3",
+        "vision_female_answer_1.mp3",
+        "vision_female_answer_or.mp3",
+        "vision_female_answer_2.mp3"
+	],
+	"hypertension" : [
+        "hypertension_female_question.mp3",
+        "hypertension_female_answer_1.mp3",
+        "hypertension_female_answer_2.mp3",
+        "hypertension_female_answer_3.mp3",
+        "hypertension_female_answer_or.mp3",
+        "hypertension_female_answer_4.mp3"
+	],
+	"raceheart" : [
+	"raceHeartQueryWithAnswersFEMALE.mp3"
+	]
+    },
+    "mp3FilesMale": {
+        "wellness": [
+		"wellness_male_question.mp3",
+		"wellness_male_answer_1.mp3",
+		"wellness_male_answer_2.mp3",
+		"wellness_male_answer_3.mp3",
+		"wellness_male_answer_or.mp3",
+		"wellness_male_answer_4.mp3"
+        ],
+        "diarrhoe": [
+		"diarrhoe_male_question.mp3",
+		"diarrhoe_male_answer_1.mp3",
+		"diarrhoe_male_answer_2.mp3",
+		"diarrhoe_male_answer_3.mp3",
+		"diarrhoe_male_answer_or.mp3",
+		"diarrhoe_male_answer_4.mp3"
+        ],
+        "vomit": [
+		"vomit_male_question.mp3",
+		"vomit_male_answer_1.mp3",
+		"vomit_male_answer_2.mp3",
+		"vomit_male_answer_3.mp3",
+		"vomit_male_answer_or.mp3",
+		"vomit_male_answer_4.mp3"
+
+        ],
+        "pain": [
+		"pain_male_question.mp3",
+		"pain_male_answer_1.mp3",
+		"pain_male_answer_2.mp3",
+		"pain_male_answer_3.mp3",
+		"pain_male_answer_or.mp3",
+		"pain_male_answer_4.mp3"
+        ],
+        "muco": [
+		"muco_male_question.mp3",
+		"muco_male_answer_1.mp3",
+		"muco_male_answer_2.mp3",
+		"muco_male_answer_3.mp3",
+		"muco_male_answer_or.mp3",
+		"muco_male_answer_4.mp3"
+        ],
+        "nausea": [
+		"nausea_male_question.mp3",
+		"nausea_male_answer_1.mp3",
+		"nausea_male_answer_2.mp3",
+		"nausea_male_answer_3.mp3",
+		"nausea_male_answer_or.mp3",
+		"nausea_male_answer_4.mp3"
+        ],
+        "pnp": [
+		"pnp_male_question.mp3",
+		"pnp_male_answer_1.mp3",
+		"pnp_male_answer_2.mp3",
+		"pnp_male_answer_3.mp3",
+		"pnp_male_answer_or.mp3",
+		"pnp_male_answer_4.mp3"
+        ],
+        "movement": [
+		"movement_male_question.mp3",
+		"movement_male_answer_1.mp3",
+		"movement_male_answer_or.mp3",
+		"movement_male_answer_2.mp3"
+        ],
+        "weight": [
+            "weightQueryWithAnswersMALE.mp3"
+        ],
+        "medication": [
+		"medication_male_question.mp3",
+		"medication_male_answer_1.mp3",
+		"medication_male_answer_or.mp3",
+		"medication_male_answer_2.mp3"
+        ],
+        "event": [
+            "eventQueryWithAnswersMALE.mp3"
+        ],
+	"breath": [
+		"breath_male_question.mp3",
+		"breath_male_answer_1.mp3",
+		"breath_male_answer_or.mp3",
+		"breath_male_answer_2.mp3"
+	],
+	"eczema": [
+		"eczema_male_question.mp3",
+		"eczema_male_answer_1.mp3",
+		"eczema_male_answer_or.mp3",
+		"eczema_male_answer_2.mp3"
+	],
+	"exercise": [
+        "exercise_male_question.mp3",
+        "exercise_male_answer_1.mp3",
+        "exercise_male_answer_or.mp3",
+        "exercise_male_answer_2.mp3"
+	],
+	"fatigue": [
+        "fatigue_male_question.mp3",
+        "fatigue_male_answer_1.mp3",
+        "fatigue_male_answer_2.mp3",
+        "fatigue_male_answer_3.mp3",
+        "fatigue_male_answer_or.mp3",
+        "fatigue_male_answer_4.mp3"
+	],
+	"joint": [
+        "joint_male_question.mp3",
+        "joint_male_answer_1.mp3",
+        "joint_male_answer_or.mp3",
+        "joint_male_answer_2.mp3"
+	],
+	"liver": [
+        "liver_male_question.mp3",
+        "liver_male_answer_1.mp3",
+        "liver_male_answer_or.mp3",
+        "liver_male_answer_2.mp3"
+	],
+	"muscle": [
+        "muscle_male_question.mp3",
+        "muscle_male_answer_1.mp3",
+        "muscle_male_answer_or.mp3",
+        "muscle_male_answer_2.mp3"
+	],
+	"vision": [
+        "vision_male_question.mp3",
+        "vision_male_answer_1.mp3",
+        "vision_male_answer_or.mp3",
+        "vision_male_answer_2.mp3"
+	],
+	"hypertension" : [
+        "hypertension_male_question.mp3",
+        "hypertension_male_answer_1.mp3",
+        "hypertension_male_answer_2.mp3",
+        "hypertension_male_answer_3.mp3",
+        "hypertension_male_answer_or.mp3",
+        "hypertension_male_answer_4.mp3"
+	],
+	"raceheart" : [
+	"raceHeartQueryWithAnswersMALE.mp3"
+	]
+
+    },
+    "indexToId": {
+        "0": "wellness",
+        "1": "diarrhoe",
+        "2": "vomit",
+        "3": "pain",
+        "4": "muco",
+        "5": "nausea",
+        "6": "pnp",
+        "7": "movement",
+        "8": "weight",
+        "9": "event",
+        "10": "medication",
+	"11": "breath",
+	"12": "eczema",
+	"13": "exercise",
+	"14": "fatigue",
+	"15": "joint",
+	"16": "liver",
+	"17": "muscle",
+	"18": "vision",
+	"19": "hypertension",
+	"20": "raceheart"
+    }
+}

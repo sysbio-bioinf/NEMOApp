@@ -1,0 +1,9 @@
+<Page class="page my-page" navigatingTo="onNavigatingTo" loaded="onNavigatingTo" xmlns="http://schemas.nativescript.org/tns.xsd" loaded="onNavigatingTo" actionBarHidden="true">
+    <ScrollView>
+        <StackLayout verticalAlignment="center">
+            <Button text="&#xe998;" class="icon my-button-medication" horizontalAlignment="center" tap="onTapMedication" ></Button>
+            <Label text="{{ medicationChangedMessage }}" fontSize="{{ mySize }}" textWrap="true" class="question text-center" horizontalAlignment="center"></Label>
+            <Label id="helpText" text="{{ helpMedication }}" fontSize="{{ mySizeMessageSmall }}" textWrap="true" class="help help-home" marginTop="4"/>
+        </StackLayout>
+    </ScrollView>
+</Page>
