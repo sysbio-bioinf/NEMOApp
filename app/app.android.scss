@@ -2,19 +2,3 @@
 @import "app-common";
 
 // Place any CSS rules you want to apply only on Android here
-TabStrip
-{
-    margin: 0;
-    padding: 0;
-}
-
-TabStripItem
-{
-    background-color: rgb(58,83,255);
-    color: #FFFFFF;
-}
-
-TabStripItem:active {
-    color: #000000;
-}
-

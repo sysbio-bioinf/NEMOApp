@@ -49,6 +49,8 @@ function bindGuiStrings(bindObject, stringFile) {
         }
 
     });
+
+    
 }
 
 /**
@@ -63,9 +65,8 @@ function adjustFontSizes(bindObject) {
     const widthDip = platformModule.Screen.mainScreen.widthDIPs;
     const heightDip = platformModule.Screen.mainScreen.heightDIPs;
     
-
-    let mySize = 35;
-    let mySizeSmall = 32;
+    let mySize = 40;
+    let mySizeSmall = 35;
     let mySizeMessage = 32;
     let mySizeMessageSmall = 28;
     let mySizeSummary = 30;
@@ -82,7 +83,7 @@ function adjustFontSizes(bindObject) {
         realHeight = width;
     }
 
-    if (realWidth < 480)
+    if (realWidth <= 500)
     {
         sizeClass = "tiny";
     }
@@ -93,22 +94,21 @@ function adjustFontSizes(bindObject) {
         }
     }
 
-    // console.log("class : " + sizeClass + ", Orientation : " + orientation);
     if (orientation == "portrait") {
         if (sizeClass == "tiny")
         {
-            mySize = 20;
-            mySizeSmall = 13;
+            mySize = 24;
+            mySizeSmall = 17;
             mySizeMessage = 14;
-            mySizeMessageSmall = 15;
+            mySizeMessageSmall = 12;
             mySizeSummary = 15;
             mySizeTitle = 15;
-            mySizeMenu = 15;
-            mySizePrimaryButton = 15; 
+            mySizeMenu = 13;
+            mySizePrimaryButton = 13; 
         }
         else if (sizeClass == "small") {
             mySize = 28;
-            mySizeSmall = 22;
+            mySizeSmall = 21;
             mySizeMessage = 18;
             mySizeMessageSmall = 15;
             mySizeSummary = 16;
@@ -116,17 +116,17 @@ function adjustFontSizes(bindObject) {
             mySizeMenu = 14;
             mySizePrimaryButton = 15;
         } else if (sizeClass == "medium") {
-            mySize = 30;
-            mySizeSmall = 20;
-            mySizeMessage = 24;
+            mySize = 34;
+            mySizeSmall = 25;
+            mySizeMessage = 22;
             mySizeMessageSmall = 20;
             mySizeSummary = 24;
             mySizeTitle = 20;
             mySizeMenu = 18;
             mySizePrimaryButton = 22;
         } else {
-            mySize = 34;
-            mySizeSmall = 26;
+            mySize = 38;
+            mySizeSmall = 29;
             mySizeMessage = 27;
             mySizeMessageSmall = 22;
             mySizeSummary = 24;
@@ -153,8 +153,8 @@ function adjustFontSizes(bindObject) {
             mySizeTitle = 21;
             mySizeMenu = 16;
         } else {
-            mySize = 23;
-            mySizeSmall = 21;
+            mySize = 25;
+            mySizeSmall = 25;
             mySizeMessage = 22;
             mySizeMessageSmall = 22;
             mySizeSummary = 19;

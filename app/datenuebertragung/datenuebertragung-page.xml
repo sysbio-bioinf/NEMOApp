@@ -1,17 +1,17 @@
-<Page class="page my-page ignoredark" navigatingTo="onNavigatingTo" loaded="onLoaded" navigatingFrom="onNavigatingFrom" unloaded="onUnloaded" actionBarHidden="true" xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:svg="@teammaestro/nativescript-svg">
+<Page class="page my-page" navigatingTo="onNavigatingTo" loaded="onLoaded" navigatingFrom="onNavigatingFrom" unloaded="onUnloaded" actionBarHidden="true" xmlns="http://schemas.nativescript.org/tns.xsd" >
     <ScrollView>
-        <FlexboxLayout flexDirection="column" justifyContent="space-between" alignItems="stretch" class="ignoredark">
-            <StackLayout row="2" col="0" orientation="vertical" width="auto" height="auto" class="ignoredark">
+        <FlexboxLayout flexDirection="column" justifyContent="space-between" alignItems="stretch">
+            <StackLayout row="2" col="0" orientation="vertical" width="auto" height="auto">
                 <Label row="0" col="0" id="status" text="Ready" fontSize="{{ mySizeMessageSmall }}" class="status-message" horizontalAlignment="center" textWrap="true"></Label>
                 <Label row="1" col="0" id="status" text="{{ currentQrCodeMessage }}" fontSize="{{ mySizeMessageSmall }}" class="status-message" horizontalAlignment="center" textWrap="true"></Label>
             </StackLayout>
-            <StackLayout row="2" col="0" id="qrContainer" width="auto" height="auto" class="ignoredark">
+            <StackLayout row="2" col="0" id="qrContainer" width="auto" height="auto">
                 <!-- <Image id="img" width="auto" height="auto" stretch="aspectFit" /> -->
 <!--                <svg:SVGImage id="svgImg" src="~/datenuebertragung/focus_optimizer.svg" class="qr-image" />-->
                 <Image id="svgImg"/> src="~/datenuebertragung/focus_optimizer.png" class="qr-image" />
 
             </StackLayout>
-            <Button row="3" col="0" id="createQR" text="{{ currentQrCodeButton }}" fontSize="{{ mySizeMessage }}" textWrap="true" class="-btn my-button-primary my-button-grad3:active capitalization" margin="5" tap="showQR" />
+            <Button row="3" col="0" id="createQR" text="{{ currentQrCodeButton }}" fontSize="{{ mySizeMessage }}" textWrap="true" class="-btn btn-primary my-button-primary capitalization" margin="5" tap="showQR" />
         </FlexboxLayout>
     </ScrollView>
 </Page>

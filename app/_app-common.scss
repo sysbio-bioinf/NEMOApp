@@ -24,7 +24,7 @@
 .navigation__item {
     &:active,
     &:active Label {
-        //@include colorize($contrasted-color: complementary background 20% 0%);
+        @include colorize($contrasted-color: complementary background 20% 0%);
     }
 }
 .fa {
@@ -82,7 +82,7 @@
 // Button
  .my-button-grad0 {
     background-color: rgb(169,255,76);
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -91,7 +91,7 @@
 
  .my-button-grad1 {
     background-color: yellow;
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -100,7 +100,7 @@
 
 .my-button-grad2 {
     background-color: orange;
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -109,7 +109,7 @@
 
  .my-button-grad3 {
      background-color: rgb(255,163,166);
-     border-radius: 2;
+     border-radius: 5;
      color: black;
      font-size: 35;
      margin-top: 10;
@@ -118,7 +118,7 @@
 
  .my-button-gradX {
     background-color: rgb(200,200,200);
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -126,7 +126,7 @@
 
 .my-button-gradN0 {
     background-color: rgb(160,215,255);
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -135,7 +135,7 @@
 
 .my-button-gradN1 {
     background-color: rgb(160,215,255);    //rgb(105,193,255);
-    border-radius: 2;
+    border-radius: 5;
     color: black;
     font-size: 35;
     margin-top: 10;
@@ -226,8 +226,7 @@
 }
 
 .my-button-primary {
-    background-color:  rgb(62,75,255);
-    color: white;
+    background-color:  rgb(58,83,255);
     padding-top: 4;
     padding-bottom: 5;
     padding-left: 10;
@@ -236,6 +235,12 @@
 
 .my-page {
     margin-top: 34;
+}
+
+
+.ignoredark {
+    color:  rgb(255,255,255);
+    background-color:  rgb(255,255,255);
 }
 
 .my-input {
@@ -299,7 +304,7 @@
 }
 
 .settings-link {
-    color: rgb(62,75,255);
+    color: rgb(12,132,255);
     padding: 0;
     padding-bottom: 5;
     font-weight: normal;
@@ -310,13 +315,8 @@
     height: 300;
 }
 
-.ignoredark {
-    color:  rgb(255,255,255);
-    background-color:  rgb(255,255,255);
-}
-
 .status-message {
-    color:  rgb(62,75,255);
+    color: rgb(12,132,255);
 }
 
 .weight-separator {

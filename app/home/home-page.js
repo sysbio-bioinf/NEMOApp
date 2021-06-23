@@ -75,8 +75,6 @@ function onTapPlus(args) {
 
 
 
-
-
 }
 
 /* maybe use better random than Math.random

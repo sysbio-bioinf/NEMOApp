@@ -724,7 +724,7 @@ function getLastPulseFromDB(vm) {
 		data = JSON.parse(appSettings.getString("healthRecord", "[]"));
 		//console.log("DEBUG: getLastPulseFromDB data hr:"); console.log(data);
 		var results = data[data.length - 1];		
-		console.log("DEBUG: getLastPulseFromDB results hr:"); console.log(results); console.log(typeof results);
+		
 		
 		if (typeof results == "string" || typeof results == "number") {
 			vm.set("pulseIndex", parseInt(results) - parseInt(vm.get("pulseOffset")));

@@ -32,6 +32,24 @@ function onUnloaded(args) {
 }
 
 /**
+ * When page datenübertragung is left. 
+ * Stop show QR code sequence loop
+ * @param {*} args 
+ */
+function onNavigatingFrom(args) {
+    tools.stopQrCodeLoop();
+}
+
+/**
+ * When page datenübertragung is left. 
+ * Stop show QR code sequence loop
+ * @param {*} args 
+ */
+function onUnloaded(args) {
+    tools.stopQrCodeLoop();
+}
+
+/**
  * When page datenübertragung is opened. 
  * Initialize GUI-elements
  * Load database and create QR-Codes
@@ -170,13 +188,13 @@ function onLoaded(args) {
     dbEntries = database.requestData(0);
 
     dbEntries.then(function (res) {
-            //console.log("haa");
-            new Promise( function(resolve, reject) {
+        console.log("haa");
+        new Promise(function (resolve, reject) {
             resolve(true);
-            }).then(function(res) {});
-            
+        }).then(function (res) { console.log("hää: " + res); });
+
     });
-    // console.log("hup hup");
+    
     // readRecordsFromDB(args.object);   // must be done here to prepare initial metadata for showQR function
     //when database is loaded, generate output
     dbEntries.then(function (res) {
@@ -220,9 +238,10 @@ function confirmTransfer(page) {
 
         }
         else { //if dialog was confirmed
-            dbEntries.then(function(res){
-                generateOutputData(res).then( function(res) {
-                    // console.log("huu");
+            console.log("DEBUG:  generating QR files...");
+            dbEntries.then(function (res) {
+                generateOutputData(res).then(function (res) {
+                    console.log("huu");
                     global.dataLoaded = true;
                     const createQrButton = page.getViewById("createQR");
                     createQrButton.isEnabled = true;

@@ -34,6 +34,7 @@ const slidesSpec = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slid
 const namesSpec = ["wellness", "diarrhoe", "vomit", "pain", "muco", "nausea", "pnp", "fatigue", "movement", "weight", "event", "medication","hypertension", "eczema", "liver", "vision", "muscle", "joint", "breath","exercise","raceheart"];
 const orientationsSpec = ["vertical", "horizontal", "horizontal", "horizontal", "vertical", "vertical", "vertical", "vertical", "horizontal", "vertical", "vertical",
 						  "vertical", "vertical", "vertical", "vertical", "vertical", "vertical"];
+
 const nameToIndex = {
 	"wellness": 0, 
 	"diarrhoe": 1, 

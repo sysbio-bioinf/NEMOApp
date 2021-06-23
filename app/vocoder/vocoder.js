@@ -15,10 +15,10 @@ let Vocoder = class Vocoder {
             loop: false,
             completeCallback: this.playNextAudioFile,
             errorCallback: function (errorObject) {
-                // console.log(JSON.stringify(errorObject));
+                console.log(JSON.stringify(errorObject));
             },
             infoCallback: function (args) {
-                // console.log(JSON.stringify(args));
+                console.log(JSON.stringify(args));
             }
         };
         this.fileNumber = 0;
@@ -36,7 +36,7 @@ let Vocoder = class Vocoder {
 //                console.log(res);
             })
             .catch(function (err) {
-                // console.log('something went wrong...', err);
+                console.log('something went wrong...', err);
             });
     }
 
@@ -61,7 +61,6 @@ let Vocoder = class Vocoder {
         const maleVoice = this.appSettings.getBoolean("MaleVoice");
         if (text2Speech) {
             const questionId = this.config.indexToId[questionIndex];
-            // console.log("DEBUG: Question : " + questionId);
             var configKey = "mp3FilesFemale";
             if (maleVoice) {
                 configKey = "mp3FilesMale";
@@ -78,7 +77,7 @@ let Vocoder = class Vocoder {
 		this.volume=1
                 this.playAudioFile();
             } else {
-                // console.log("WARNING: unknown question ID '" + questionId + "' in call of method 'speakQuestion'");
+                console.log("WARNING: unknown question ID '" + questionId + "' in call of method 'speakQuestion'");
             }
         }
     }

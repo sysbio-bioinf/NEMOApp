@@ -7,7 +7,7 @@ let slide = `
         <ListPicker items = "{{ hgItems }}" selectedIndex = "{{ hgIndex }}" selectedValue = "{{ hgSelected }}" id="weightHg" width="60" height="200" />
         <Label text="kg" verticalAlignment="middle" class="weight-label" />
     </StackLayout>
-    <Button row="2" text="{{nextSlideButton}}" fontSize="{{ mySize }}" class="-btn my-button-primary my-button-grad3:active" margin="5" tap="{{ switchTab }}"/>
+    <Button row="2" text="{{nextSlideButton}}" fontSize="{{ mySize }}" class="-btn btn-primary my-button-primary my-button-grad3:active" margin="5" tap="{{ switchTab }}"/>
 </GridLayout>
 `;
 

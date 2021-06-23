@@ -1,4 +1,4 @@
-<Page navigatingTo="onNavigatingTo" actionBarHidden="true" class="page my-page" loaded="onLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
+<Page navigatingTo="onNavigatingTo" actionBarHidden="true" class="my-page" loaded="onLoaded" xmlns="http://schemas.nativescript.org/tns.xsd">
 
     <ScrollView>
         <GridLayout columns="*,auto" rows="auto, auto, auto, auto, auto, auto" class="settings-container">
